@@ -1,0 +1,42 @@
+﻿# Terraform local files and state
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+*.tfplan
+*.plan
+crash.log
+crash.*.log
+
+# Terraform generated JSON
+terraform/*.json
+
+# Generated reports
+reports/*.json
+reports/*.html
+reports/*.txt
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+
+# Credentials
+*.pem
+*.key
+credentials
+credentials.json
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
