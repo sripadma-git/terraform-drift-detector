@@ -73,10 +73,11 @@ terraform-drift-detector/
 │   ├── automation.py
 │   ├── drift_detector.py
 │   ├── terraform_parser.py
-│   ├── risk_engine.py
 │   ├── report_generator.py
 │   ├── html_report_generator.py
-│   └── notifications.py
+│   ├── notifications.py
+│   └── rules/
+│       └── risk_engine.py
 ├── terraform/
 │   ├── main.tf
 │   ├── providers.tf
@@ -88,10 +89,8 @@ terraform-drift-detector/
 ├── reports/
 ├── requirements.txt
 └── README.md
-```
 
 ## Requirements
-
 - Python 3
 - Terraform
 - AWS CLI
